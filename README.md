@@ -1,3 +1,113 @@
+# Visually Impaired Secured EyePay
+
+> An accessible and secure payment system designed to make digital payments easier, safer, and more convenient for visually impaired users.
+
+## Overview
+
+**EyePay** is an accessibility-focused payment solution that combines **voice commands, NFC, biometric authentication, speech feedback, and fraud detection** to provide a secure and user-friendly payment experience.
+
+## Key Features
+
+* Voice Commands – Perform payment-related actions using voice.
+* NFC Payments – Enable convenient contactless transactions.
+* Biometric Authentication – Secure user verification.
+* Speech Recognition & Feedback – Enable voice-based interaction and audio guidance.
+* Fraud Detection – Identify potentially suspicious transactions.
+* Multilingual Support – Improve accessibility for users from different backgrounds.
+
+## Technology Stack
+
+### Frontend
+
+* React Native
+* JavaScript
+
+### Backend
+
+* PHP
+* Speech Recognition
+
+### Security
+
+* Biometric Authentication
+* Secure Authentication
+* Password/PIN Hashing
+* Fraud Detection
+
+### Database & Cloud
+
+* MySQL
+* Google Cloud
+* Hostinger
+
+## System Architecture
+
+```text
+                 User
+                  |
+                  v
+          React Native App
+                  |
+        +---------+---------+
+        |         |         |
+        v         v         v
+      Voice      NFC     Biometric
+        |         |         |
+        +---------+---------+
+                  |
+                  v
+             PHP Backend
+                  |
+        +---------+---------+
+        |         |         |
+        v         v         v
+      MySQL    Fraud     Security
+                  |
+                  v
+        Google Cloud / Hostinger
+                  |
+                  v
+           Speech Feedback
+```
+
+## Project Objectives
+
+* Improve digital payment accessibility for visually impaired users.
+* Reduce dependence on traditional visual interfaces.
+* Provide secure authentication and payment processing.
+* Integrate voice interaction with modern payment technologies.
+* Apply fraud detection to improve transaction security.
+* Build a practical accessibility-focused FinTech solution.
+
+## Learning Outcomes
+
+* React Native application development
+* PHP backend development
+* Speech Recognition integration
+* NFC-based payment concepts
+* Biometric authentication
+* Secure PIN/password handling
+* Fraud detection
+* MySQL database management
+* Cloud deployment using Google Cloud and Hostinger
+
+## Future Enhancements
+
+* Support for additional regional languages
+* Real-time transaction analytics
+* Intelligent fraud alerts
+* Improved cloud infrastructure
+* Additional accessibility features
+
+## Project Vision
+
+> Making digital payments more accessible, secure, and inclusive through technology.
+
+## Technologies
+
+`React Native` `JavaScript` `PHP` `Speech Recognition` `NFC` `Biometric Authentication` `Fraud Detection` `MySQL` `Google Cloud` `Hostinger` `FinTech` `Accessibility` `Cybersecurity`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
